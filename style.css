@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+/*Start Nav Bar*/
+.nav {
+    background: #fff;
+    overflow: hidden;
+}
+
+.nav h3 {
+    color: #515A79;
+    float: left;
+    padding: 20px;
+}
+.nav h3 a {
+    text-decoration: none;
+    color: #515A79;
+}
+
+.nav ul {
+    list-style: none;
+    float: right;
+    padding: 0;
+}
+
+.nav ul li {
+    float: left;
+    padding: 20px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #515A79;
+}
+/*End Nav Bar*/
+
+/* Start Header*/
+.header {
+    background-color: #515A79;
+    overflow: hidden;
+    height: 70vh;
+}
+.header .content {
+    padding: 30px 0;
+    margin: 50px 0;
+}
+
+.header .left {
+    float: left;
+    width: 55%;
+} 
+.header .right {
+    float: left;
+    width: 45%;
+}
+.header .left {
+    color: #fff;
+    margin: 100px 0;
+}
+
+.header .left h2 {
+    font-size: 30px;
+}
+
+.header .left p {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.header .left button {
+    background-color: #7ED9A0;
+    color: #fff;
+    border: 0;
+    padding: 15px 30px;
+}
+
+.header .right img {
+    width: 100%;
+}
+
+/* End Header*/
+
+/* Start Features*/
+.features {
+    padding: 20px 0 0;
+    overflow: hidden;
+    text-align: center;
+    color: #515A79;
+}
+.features h2 {
+    font-size: 50px;
+}
+.features  p {
+    line-height: 1.5;
+}
+
+.features .content {
+    float: left;
+    width: 50%;
+    margin: 20px 0;
+    padding: 50px 0;
+}
+
+.features .content .img {
+    float: left;
+    width: 20%;
+}
+.features .content .img img {
+    width: 50%;
+}
+
+.features .content .text {
+    float: left;
+    width: 80%;
+}
+
+.features .content .text h3, 
+.features .content .text p {
+    text-align: left;
+}
+/* End Features*/
+
+/* Start Exprince*/
+.experince {
+    background-color: #515A79;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+}
+
+.experince .exp {
+    float: left;
+    width: 33.333333%;
+    padding: 20px 10px;
+}
+.experince .exp:hover {
+    background-color: #495271;
+}
+
+.experince .exp img {
+    max-width: 30%;
+}
+
+.experince .exp h3 {margin: 20px 0;}
+
+.experince .exp p {
+    line-height: 1.5;
+    color: #d1d1d1;
+}
+
+.experince .exp a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 3;
+} 
+/* End Exprince*/
+
+/* Start Our Work*/
+.our-work {
+    overflow: hidden;
+    padding: 35px 0;
+    color: #515A79;
+    text-align: center;
+}
+
+.our-work h2 {margin-bottom: 10px;}
+.our-work p {line-height: 1.7;}
+
+.our-work .links {
+    padding: 20px;
+}
+
+.our-work .links a {
+    text-decoration: none;
+    color: #515A79;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.our-work .content {
+    float: left;
+    width: 25%;
+    padding: 20px 0;
+}
+
+.our-work .content img {
+    width: 90%;
+}
+
+.our-work .content h3, 
+.our-work .content p {
+    text-align: left;
+    margin-left: 15px;
+}
+/* End Our Work*/
